@@ -1,4 +1,31 @@
-# minecraftwebregister
-Добавление в whitelist сервера Minecraft через простую Веб страницу и удобное добавление/отклонение игрока через бота в телеграмме.
-![image](https://github.com/user-attachments/assets/6f06f11c-3fac-4ee6-a786-af0d5b3f55fa)
-![image](https://github.com/user-attachments/assets/c750d29f-9e3c-4e9a-a34c-5fada4356d9a)
+# Minecraft Whitelist Management
+
+Этот проект представляет собой веб-приложение для управления whitelist'ом на Minecraft сервере через Telegram бота и интерфейс на Flask.
+
+## Описание
+
+С помощью этого приложения администраторы Minecraft сервера могут добавлять игроков в whitelist через Telegram бота и веб-интерфейс. Процесс добавления игрока прост — пользователь отправляет запрос через форму на сайте, после чего администратор подтверждает его в Telegram.
+
+Приложение состоит из двух основных компонентов:
+1. **Веб-интерфейс**, построенный на Flask, для отправки запросов на добавление игроков в whitelist.
+2. **Telegram-бот**, который получает запросы от пользователей и позволяет администратору подтвердить или отклонить добавление игроков.
+
+## Скриншоты
+
+### Веб-интерфейс
+![image](https://github.com/user-attachments/assets/8222283c-bdf7-43f6-8982-5873fb64773b)
+
+
+### Telegram-бот
+![image](https://github.com/user-attachments/assets/4d5b9345-f791-478f-95ef-d2908bfe4326)
+
+
+## Установка
+
+Для начала работы с проектом, следуйте этим шагам:
+
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/minecraftwebregister.git
+   cd minecraftwebregister
