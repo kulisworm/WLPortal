@@ -1,3 +1,6 @@
+#В файлах templates/index.html и templates/success.html 
+#вы можете отредактировать заголовки и всю Веб Страницу.
+
 from flask import Flask, render_template, request, send_from_directory
 from rcon.source import Client
 import telebot
