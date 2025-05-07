@@ -4,11 +4,11 @@ import telebot
 import threading
 
 # --- Настройки ---
-RCON_HOST = "213.171.25.110"
-RCON_PASSWORD = "4D35BA7695902CCB00"
+RCON_HOST = "IP Minecraft сервера"
+RCON_PASSWORD = "RCON пароль сервера"
 RCON_PORT = 25575
-TOKEN = '7496955616:AAF1Pw1GDb98mASUCEQXXweVYWe7ObtE2Bw'
-ADMIN_CHAT_ID = '628462465'
+TOKEN = 'Токен бота Telegram'
+ADMIN_CHAT_ID = 'Chat ID администратора(ваш)'
 
 # --- Инициализация ---
 app = Flask(__name__)
