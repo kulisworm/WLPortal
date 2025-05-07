@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitelist Your Nickname</title>
+    <link rel="stylesheet" href="{{ url_for('wwwroot', path='css/style.css') }}">
+</head>
+
+<body>
+    <main>
+        <div class="blackout-background"></div>
+        <div class="container">
+            <h1>Добавь себя в Whitelist</h1>
+            <form class="content" action="/add_whitelist" method="post">
+                <div class="block-input">
+                    <div>
+                        <label for="username_minecaft">Введите ник в майнкрафте:</label>
+                        <input type="text" id="username_minecaft" name="username_minecaft" required>
+                    </div>
+                    <div>
+                        <label for="username_tg">Введите ник в телеграмме:</label>
+                        <input type="text" id="username_tg" name="username_tg" required>
+                    </div>
+                </div>
+                <button type="submit">Добавить</button>
+            </form>
+            <div id="status">Пройдено!</div>
+        </div>
+    </main>
+</body>
+
+</html>
