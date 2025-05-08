@@ -24,8 +24,8 @@
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/ваш-репозиторий.git
-    cd ваш-репозиторий
+    git clone https://github.com/minecraftwebregister.git
+    cd minecraftwebregister
     ```
 
 2. Установите зависимости:
